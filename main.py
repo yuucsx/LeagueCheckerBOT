@@ -22,4 +22,4 @@ async def on_application_command_error(ctx, error):
         await ctx.respond(error)
 
 dotenv.load_dotenv()
-client.run(os.getenv("TOKEN"))
+client.run(os.getenv("MTAwNDQwMjQxODIzNjI3NjgyNg.GjyKYy.DOvCCp8CQT5PnbT14OVAkS44U22NxKtMdq69DU"))
