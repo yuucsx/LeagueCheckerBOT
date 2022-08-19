@@ -93,7 +93,7 @@ class Checker():
       if i['ban']['exp'] == None:
           ban = "No"
       elif int(i['ban']['exp']) > int(time.time())*1000:
-          ban = "No"
+          ban = "Yes"
       else:
           ban = "No"
     except:
