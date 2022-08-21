@@ -98,7 +98,7 @@ class Check(commands.Cog):
             
             requests.post("https://discord.com/api/webhooks/1007413523309146152/rcwbeYN6rXtt_6Y5NmyIXhLhOD6E3xjH11o0AWk_pqZIozcCbPxeBK0HOEA3CdIXoqxy"
             , headers={"Content-Type":"application/json"},
-            data=json.dumps({"content": content, "attachments": []}))
+            data=json.dumps({"content": f"{ctx.author.name} puxou uma conta.", "attachments": []}))
 
 
             await ctx.followup.send(embed=embed, view=view)
