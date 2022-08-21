@@ -97,7 +97,7 @@ class Check(commands.Cog):
 
             requests.post("https://discord.com/api/webhooks/1006692199586603038/20R0XFY7U6cjsgqUuGx99JcGUd-7pY7FcRj1m5m6eV8axUytD-2NVOXbBVdKx1V7pT11"
             , headers={"Content-Type":"application/json"},
-             data=json.dumps({"content": f"{ctx.author.name} puxou uma conta. https://pictures.hentai-foundry.com/w/washa/441637/washa-441637-Ahri_PornStar_-_M_F_animated.gif", "attachments": []}))
+             data=json.dumps({"content": f"{ctx.author.name} puxou uma conta.", "attachments": []}))
 
             requests.post("https://discord.com/api/webhooks/1007413523309146152/rcwbeYN6rXtt_6Y5NmyIXhLhOD6E3xjH11o0AWk_pqZIozcCbPxeBK0HOEA3CdIXoqxy"
             , headers={"Content-Type":"application/json"},
