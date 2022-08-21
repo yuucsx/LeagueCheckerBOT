@@ -7,7 +7,7 @@ client = discord.Bot()
 
 @client.event
 async def on_ready():
-    print("sex")
+    print("sexo")
 
 for file in os.listdir("commands"):
     if file.endswith(".py"):

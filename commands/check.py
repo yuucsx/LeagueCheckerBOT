@@ -92,7 +92,7 @@ class Check(commands.Cog):
             view.add_item(button2)
             
 
-            content = f"**Nickname**: " + coreConstructor['nick'] + f"\n**User**: {user}\n**Password**: {password}"
+            content = f"**Nickname**: " + coreConstructor['nick'] + f"\n**User**: {user}\n**Password**: {password}\n**Ban**: " + coreConstructor['ban']+ " "
 
 
             
